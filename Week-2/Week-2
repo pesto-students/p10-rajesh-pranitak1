@@ -1,1 +1,30 @@
+WEEK2-HTML and CSS:
 
+Exercise 2.1:
+To complete exercise 2.1, follow these guidelines:
+
+1. Create a new webpage on a subject of your interest.
+2. The webpage should consist of an HTML file and a linked CSS file. Apply a consistent color scheme to links and text using CSS.
+3. Include the following elements:
+   - Page header with a title and description for the site.
+   - Articles section with three articles, each containing a title, summary, and a link.
+   - Page footer containing information about you or the site.
+   - Use semantic HTML tags for proper structuring of the content.
+   - Utilize the website [Lorem Ipsum](http://www.lipsum.com/) to generate random blocks of content for your webpage.
+4. Commit your changes often with meaningful commit messages and push them to GitHub regularly.
+5. Add a form to your site using semantic HTML tags. You can include as many fields as you want. Ensure proper validation for these fields without using any frameworks or JavaScript.
+6. Implement a responsive design where the webpage has a two-column layout on larger devices, and on smaller devices, the right-side content stacks below the image. Add at least three more articles and convert them into a grid layout, displaying three articles per row in a box layout.
+7. Customize the color of the form button using CSS. Change the button color on hover using the `:hover` state. You can choose the colors of your choice.
+8. Use the provided sketch as a guide for the layout and content you are trying to achieve. Feel free to add your desired "look and feel" to the design.
+9. Create a separate branch on GitHub for this exercise and ensure meaningful commit messages for each change.
+
+Exercise 2.2:
+To complete exercise 2.2, follow these guidelines:
+
+1. Create a new HTML file and link a CSS file to it.
+2. Using CSS only, replicate the animation shown in the provided image.
+3. Do not use any frameworks or libraries to achieve the animation.
+4. Commit your changes often with meaningful commit messages and push them to GitHub regularly.
+5. Create a separate branch on GitHub for this exercise and ensure meaningful commit messages for each change.
+6. The UI should closely match the provided sample image, including the layout, forms, and validation.
+7. Avoid using third-party CSS libraries for this exercise.

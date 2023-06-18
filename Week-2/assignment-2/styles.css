@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    width: 200px;
+    margin: 150px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease;
+}
+
+#box1 {
+    transform-origin: left top ;
+    background-color: #ff0000;
+}
+
+#box2 {
+    transform-origin: left bottom;
+    background-color: #2f00ff;
+}
+
+#box3 {
+    transform-origin: right top;
+    background-color: #f4f804;
+}
+
+#box4 {
+    transform-origin: right bottom;
+    background-color: #15fd00;
+}
+
+.container:hover #box1 {
+    transform: rotate(90deg);
+}
+
+.container:hover #box2 {
+    transform: rotate(-90deg);
+}
+
+.container:hover #box3 {
+    transform: rotate(-90deg);
+}
+
+.container:hover #box4 {
+    transform: rotate(90deg);
+} 
+
+.text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

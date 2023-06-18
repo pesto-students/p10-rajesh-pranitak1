@@ -1,0 +1,121 @@
+     /* Style for navigation */
+     nav {
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: lightgray;
+      }
+      .nav-icon {
+        margin: 22px 0;
+        font-size: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      /* Style for header */
+      header {
+        background-color: #333;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        color: white;
+      }
+      .header-icon {
+        font-size: 50px;
+        margin-right: 10px;
+      }
+
+      /* Style for article */
+      article {
+        padding-bottom: 110px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        justify-content: left;
+        align-items: left;
+      }
+      th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+
+      /* Style for footer */
+      footer {
+        background-color: #4a25f0;
+        color: white;
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+      }
+      .footer-icon {
+        font-size: 30px;
+        margin-right: 10px;
+      }
+
+      .child img {
+        width: 150px;
+        height: 150px;
+        /* margin-bottom: 10px; */
+        /* margin-top: 10px; */
+     }
+
+    .child {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+    }
+
+    .parenttable {
+        padding-bottom: 200px;
+   }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        /* margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        height: 85vh; */
+    }
+
+    .childb img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .childb {
+        display: inline-block;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+    }
