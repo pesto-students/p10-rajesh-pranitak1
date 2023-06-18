@@ -1,1 +1,66 @@
 
+WEEK 7 - DSA Problems
+
+Problem 7.1: Max Sum Contiguous Subarray
+
+Write a function that finds the contiguous subarray within an array A of length N with the largest sum. The function should take an integer array A as input and return an integer representing the maximum possible sum of the contiguous subarray.
+
+Example:
+Input: A = [1, 2, 3, 4, -10]
+Output: 10
+Explanation: The subarray [1, 2, 3, 4] has the maximum possible sum of 10.
+
+Problem 7.2: Spiral Order Matrix II
+
+Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order. Write a function that takes the matrix as input and returns a list of integers representing the elements in spiral order.
+
+Example:
+Input:
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+Problem 7.3: Sort Array of 0's, 1's, and 2's
+
+Given an array of size N containing only 0s, 1s, and 2s, sort the array in ascending order. Write a function that takes the array as input and sorts it in-place.
+
+Example:
+Input: [0, 2, 1, 2, 0]
+Output: [0, 0, 1, 2, 2]
+
+Problem 7.4: Best Time to Buy and Sell Stock
+
+You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy the stock and choosing a different day in the future to sell it. Write a function that takes the prices array as input and returns the maximum profit that can be achieved.
+
+Example:
+Input: [7, 1, 5, 3, 6, 4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6 - 1 = 5.
+
+Problem 7.5: Pair With Given Difference
+
+Given a one-dimensional unsorted array A containing N integers, and an integer B, find if there exists a pair of elements in the array whose difference is B. Return 1 if any such pair exists, otherwise return 0. Write a function that takes the array A and the integer B as input and returns 1 or 0.
+
+Example:
+Input:
+A = [5, 10, 3, 2, 50, 80]
+B = 78
+Output: 1
+Explanation: Pair (80, 2) gives a difference of 78.
+
+Problem 7.6: 3 Sum
+
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number target. Return the sum of the three integers. Assume that there will only be one solution. Write a function that takes the array S and the target number as input and returns the sum.
+
+Example:
+Input: S = [-1, 2, 1, -4], target = 1
+Output: 2
+Explanation: The sum closest to the target is 2 (-1 + 2 + 1 = 2).
+
+Assignment Introduction:
+- Calculate the time and space complexity for each problem.
+- Write optimized solutions for each problem.
+- Include time

@@ -1,1 +1,114 @@
+WEEK-3 JavasScript:JS:
+
+Exercise 3.1:
+To complete exercise 3.1, follow these guidelines:
+
+```
+//Given reducer method:
+functionadd(a,b){
+  returna+b
+}
+  //Create a method called memoize such that:
+  constmemoizeAdd=memoize(add);
+  //then calling...
+  memoizeAdd(100,100);//returns 200
+  memoizeAdd(100);//returns 100
+  memoizeAdd(100,200)//returns 300
+  memoizeAdd(100,100)//returns 200 without computing
+```
+
+1. Create a memoize function that remembers previous inputs and stores them in a cache to avoid computing the same inputs more than once.
+2. The memoize function should take an unspecified number of integer inputs and a reducer method.
+3. The reducer method is a function that performs some computation on the inputs and returns a result.
+4. Implement the memoize function from scratch without using any third-party libraries such as lodash or underscore.
+5. The memoize function should have a name that reflects its functionality.
+6. The function should be able to handle any number of arguments.
+7. Test the memoize function with the given example to ensure it works correctly.
+8. Understand the importance of caching and how memoization solves the problem of redundant computation.
+
+Exercise 3.2:
+To complete exercise 3.2, follow these guidelines:
+
+1. Create three simple functions: call, bind, and apply.
+2. Understand the concepts of call, bind, and apply in JavaScript and their differences.
+3. Use live examples to demonstrate the differences between call, bind, and apply.
+4. Explain how call, bind, and apply are used in JavaScript and their respective use cases.
+5. Understand the importance of call, bind, and apply in real-world scenarios.
+
+Exercise 3.3:
+
+What is logged as the output of the code snippet and why?
+
+```
+function createIncrement() {
+  let count = 0;
+
+  function increment() {
+    count++;
+  }
+
+  let message = `Count is ${count}`;
+
+  function log() {
+    console.log(message);
+  }
+
+  return [increment, log];
+}
+
+const [increment, log] = createIncrement();
+increment();
+increment();
+increment();
+log();
+```
+
+To determine the output of the given problem, follow these guidelines:
+
+1. Understand the code and its behavior.
+2. Explain how closures work in JavaScript and how the code utilizes closures.
+3. Determine the output of the code when it is executed.
+4. Explain the reason behind the output.
+
+Exercise 3.4:
+To refactor the given stack implementation using the concept of closure, follow these guidelines:
+
+
+```
+function createStack() {
+  return {
+    items: [],
+    push(item) {
+      this.items.push(item);
+    },
+    pop() {
+      return this.items.pop();
+    }
+  };
+}
+
+const stack = createStack();
+stack.push(10);
+stack.push(5);
+stack.pop(); // => 5
+stack.items; // => [10]
+stack.items = [10, 100, 1000]; // Encapsulation broken!
+
+function createStack() {
+  // Write your code here...
+}
+
+const stack = createStack();
+stack.push(10);
+stack.push(5);
+stack.pop(); // => 5
+stack.items; // => undefined
+```
+
+1. Understand the code and the problem it presents in terms of encapsulation.
+2. Refactor the code to create a closure that encapsulates the items array within the createStack function.
+3. Ensure that the items array is not accessible outside the createStack function scope.
+4. Test the refactored code to verify that it produces the desired output.
+5. Explain why the code was not working as expected before the refactoring.
+6. Explain how closure is used to encapsulate data and ensure data privacy.
 
